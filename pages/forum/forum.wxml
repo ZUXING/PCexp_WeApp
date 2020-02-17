@@ -1,0 +1,7 @@
+<view class="container pcexp_forum">
+  <view class="pcexp_forum_row" wx:for="{{pcexp_forum}}" bindtap="bindViewTap" data-aid="{{item.a_id}}">
+    <view class="pcexp_forum_col_id">{{item.a_id}}</view>
+    <view class="pcexp_forum_col_title">{{item.a_title}}</view>
+    <view class="pcexp_forum_col_unam">{{item.a_uid}}</view>
+  </view>
+</view>

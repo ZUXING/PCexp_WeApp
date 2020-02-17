@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!userInfo}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 当前你还是游客 </button>
+    <!--open-type="getUserInfo"用户授权，即用户需要先点击这样的按钮表示“我同意使用此小程序，小程序可以获得我的信息”，详细内容在https://developers.weixin.qq.com/community/develop/doc/0000a26e1aca6012e896a517556c01。若是没有这个参数，则会报错，也不能获取用户信息-->
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

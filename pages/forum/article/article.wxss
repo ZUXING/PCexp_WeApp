@@ -1,0 +1,10 @@
+/* pages/forum/article/article.wxss */
+rich-text {
+  font-size: 0.7rem;
+  padding: 4rem;
+  line-height: 1.5rem;
+  text-indent: 2em;
+}
+.eof{
+  text-align: center
+}

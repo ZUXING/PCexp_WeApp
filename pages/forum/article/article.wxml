@@ -1,0 +1,4 @@
+<view class="container">
+  <rich-text nodes="{{pcexp_forum_article.a_content}}">正文内容</rich-text>
+  <view class="eof"> -EOF- 轻触左上角以返回</view>
+</view>

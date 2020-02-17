@@ -1,0 +1,25 @@
+/* pages/forum/forum.wxss */
+.pcexp_forum_row{
+  display:flex;
+}
+.pcexp_forum_col_id{
+  min-width: 35px;
+  text-align: center;
+  border-top: 1px solid #EEE;
+  padding-top: 0.2rem;
+}
+.pcexp_forum_col_title{
+  border-top: 1px solid #EEE;
+  flex: auto;
+  flex-grow: 9;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.pcexp_forum_col_unam{
+  min-width: 90px;
+  border-top: 1px solid #EEE;
+  text-align: center;
+  padding-top: 0.2rem;
+}

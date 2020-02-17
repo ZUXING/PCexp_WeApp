@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/forum/forum",
+    "pages/forum/article/article",
+    "pages/exp/exp",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "讨论",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list": [{
+      "pagePath": "pages/forum/forum",
+      "text": "讨论"
+    },
+    {
+      "pagePath": "pages/exp/exp",
+      "text": "体验"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "我"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
